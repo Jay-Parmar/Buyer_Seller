@@ -1,0 +1,17 @@
+My idea of Implementing this solution is quite basic. I’ve made different lines of codes for Buyers and Sellers and they act according to it. As the code only executes on C++ based platform, I’ve tried my best to give it an arranged visual interface. 
+The basic ideas which are required for the Buyers and Sellers are all included as well as I’m concerned. 
+
+Technical Details : 
+
+The language used here is C++ only.  Also the Database Management System used is of C++ alone. I’ve used text files to store and use the data given by the user.
+
+Project Description
+
+The code comprises of many functions. Some of the most important parts of the code are as follows:
+checkSeller() – It checks whether the seller is already present in the database of program or not.
+checkBuyer() – It checks whether the Buyer is already present in database of program. If not, the program asks the user to register first and then proceed with their actions. Same goes for Seller.
+regSeller() and regBuyer() – These functions automatically registers the Seller or Buyer if they are not registered yet. They just have to give their Company name (in case of Sellers) or User Id (in case of Buyers).
+addSeller() – This helps Seller to add new Products or Services to sell if they want. They have to give name and price of the product or services they want to offer.
+delSeller() – If the seller wants, they can withdraw any services or products for sale. They just have to select this option.
+addBuyer() – This is the portal for Buyer to purchase the products or services available in the market. They can add any product or services and check their total value of order being placed at any step. If they want, they can also see what all purchases they have done till now.
+main() – The driver function where the user have to select if they are here to purchase or to sell some of the goods or services by selecting their category as Buyers or Sellers.
